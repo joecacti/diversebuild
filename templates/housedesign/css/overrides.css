@@ -1,6 +1,11 @@
 body{
   color: #343434;
 }
+
+.chrono_credits {
+  display: none;
+}
+
 #header-outer {
     background: #b3b3b3;
     border-bottom: 10px solid #e5271b;
