@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7.0" client="site" method="upgrade">
+<name>Image Holder</name>
+<version>1.0.0</version>
+<author>JoomlaSaver</author>
+<creationDate>June 2014</creationDate>
+<copyright>Copyright © JoomlaSaver</copyright>
+<license>Commercial</license>
+<authorEmail>mail@joomlasaver.com</authorEmail>
+<authorUrl>http://www.joomlasaver.com</authorUrl>
+<description><![CDATA[<div style="border:1px solid #c0c0c0; padding:15px; text-align:center; margin:0 auto;">This allow you to Paste Image Path from Folder<br />Joomla Modules by <a href="http://www.joomlasaver.com" target="_blank">JoomlaSaver</a></div>]]></description>
+<files>
+<filename module="mod_imageholder">mod_imageholder.php</filename>
+<filename>index.html</filename>
+</files>
+<config>
+<fields name="params">
+<fieldset name="basic">
+<field name="imageholder" type="media" default="images/joomla_black.gif" filter="raw" label="Image Path" description="Paste your Image Path Here">
+</field>
+<field name="imagewidth" type="text" default="100%" label="Width" description="e.g 200px, Include px">
+</field>
+<field name="imageheight" type="text" default="" label="Height" description="e.g 200px, Include px">
+</field>
+<field name="imagelink" type="text" default="" label="Link">
+</field>
+<field name="linktarget" type="list" default="center" label="Link Target" description="">
+<option value="_self">Self</option>
+<option value="_blank">Blank</option>
+</field>
+<field name="imagealt" type="text" default="" label="Alt">
+</field>
+<field name="imagealign" type="list" default="center" label="Align" description="">
+<option value="left">Left</option>
+<option value="right">Right</option>
+<option value="center">Center</option>
+</field>
+</fieldset>
+</fields>
+</config>
+</extension>

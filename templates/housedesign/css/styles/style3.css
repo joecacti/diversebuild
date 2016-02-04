@@ -1,0 +1,35 @@
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#header-outer { background: #5b83fd; border-bottom: 10px solid #ecebf1; }
+#copyright-outer { background: #5b83fd; border-top: 1px solid #ecebf1; }
+#banner2-float { background: #4563bf; border-bottom: 10px solid #ecebf1; }
+#advert-float { background: #5b83fd; border-bottom: 10px solid #ecebf1; }
+#footer-float { background: #5b83fd; border-top: 1px solid #ecebf1; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+.pagination .pagenav { background: #5b83fd; border: 1px solid #ecebf1; }
+p.readmore a { background: #5b83fd; border: 1px solid #ecebf1; }
+input.button, button.button, #member-registration button.btn, #user-registration button.btn, #contact-form button.btn { background: #5b83fd; border: 1px solid #ecebf1; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+.advert h3.h3title, .footer h3.h3title { border-bottom: 1px solid #ecebf1; }
+.advert .menu a, .footer .menu a { border-bottom: 1px solid #ecebf1; }
+#right-right-only .menu li a, #left-left-only .menu li a, #left-left-right .menu li a, #right-left-right .menu li a, #right-right-center .menu li a, #left-left-center .menu li a, #left-left-right-center .menu li a, #right-left-right-center .menu li a, #center-right-center .menu li a, #center-left-center .menu li a, #center-left-right-center .menu li a, #center-center-only .menu li a, #right-right-only .category-module li a, #left-left-only .category-module li a, #left-left-right .category-module li a, #right-left-right .category-module li a, #right-right-center .category-module li a, #left-left-center .category-module li a, #left-left-right-center .category-module li a, #right-left-right-center .category-module li a, #center-right-center .category-module li a, #center-left-center .category-module li a, #center-left-right-center .category-module li a, #center-center-only .category-module li a { background: #5b83fd; border: 1px solid #ecebf1; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#navigation { background: #4563bf; }
+#toolbar { background: #4563bf; }
+#toolbar .menu a { border-top: 1px solid #5b83fd; }
+@media screen and (min-width:480px){
+#navigation { background: none; }
+}
+@media screen and (min-width:768px){
+#toolbar { background: none; }
+#toolbar .menu a { border-top: none; }
+#toolbar .menu ul { background: #5b83fd; border-bottom: 1px solid #ecebf1; border-right: 1px solid #ecebf1; border-left: 1px solid #ecebf1; }
+#toolbar .menu ul ul { border-top: 1px solid #ecebf1; }
+}

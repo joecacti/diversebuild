@@ -1,0 +1,44 @@
+body{
+  color: #343434;
+}
+#header-outer {
+    background: #b3b3b3;
+    border-bottom: 10px solid #e5271b;
+}
+#copyright-outer {
+    background: #343434;
+    border-top: 1px solid #e5271b;
+}
+#footer-float {
+    background: #b3b3b3;
+    border-top: 1px solid #343434;
+}
+.footer h3.h3title {
+    border-bottom: 1px solid #343434;
+}
+.footer .menu a {
+    border-bottom: 1px solid #343434;
+}
+#phone h1 a{
+  text-decoration: none;
+  color: #343434;
+  float: right;
+  margin-right: 35px;
+}
+#navigation {
+    background: #343434;
+}
+#toolbar {
+    background: #343434;
+}
+#toolbar .menu a {
+    border-top: 1px solid #e5271b;
+}
+@media screen and (min-width:480px){
+#navigation { background: none; }
+#toolbar .menu a { border-top: none; }
+}
+@media screen and (min-width:768px){
+#toolbar { background: none; }
+#toolbar .menu a { border-top: none; }
+}

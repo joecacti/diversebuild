@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0.0" client="site" method="upgrade">
+<name>GoogleMap</name>
+<version>1.0.0</version>
+<author>JoomlaSaver</author>
+<creationDate>May 2014</creationDate>
+<copyright>Copyright © JoomlaSaver</copyright>
+<license>Commercial</license>
+<authorEmail>mail@joomlasaver.com</authorEmail>
+<authorUrl>http://www.joomlasaver.com</authorUrl>
+<description><![CDATA[Google Map]]></description>
+<files>
+<filename module="mod_map">mod_map.php</filename>
+<filename>index.html</filename>
+<folder>tmpl</folder>
+</files>
+<config>
+<fields name="params">
+<fieldset name="basic">
+<field name="map_latitude" type="text" default="" label="Latitude" />
+<field name="map_longitude" type="text" default="" label="Longitude" />
+<field name="map_zoom" type="text" default="16" label="Zoom" />
+<field name="map_height" type="text" default="200" label="Height" />
+<field name="map_class" type="text" default="" label="Class" />
+<field type="spacer" />
+<field name="map_address" type="text" default="" label="Address" />
+<field name="map_phone" type="text" default="" label="Phone" />
+<field name="map_email" type="text" default="" label="E Mail" />
+</fieldset>
+</fields>
+</config>
+</extension>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0.0" client="site" method="upgrade">
+<name>YouTube</name>
+<version>1.0.0</version>
+<author>JoomlaSaver</author>
+<creationDate>December 2014</creationDate>
+<copyright>Copyright © JoomlaSaver</copyright>
+<license>Commercial</license>
+<authorEmail>mail@joomlasaver.com</authorEmail>
+<authorUrl>http://www.joomlasaver.com</authorUrl>
+<description><![CDATA[Responsive YouTube Video]]></description>
+<files>
+<filename module="mod_youtube">mod_youtube.php</filename>
+<filename>index.html</filename>
+<folder>tmpl</folder>
+</files>
+<config>
+<fields name="params">
+<fieldset name="basic">
+<field name="youtubecode" type="textarea" rows="5" cols="60" default="" filter="raw" label="YouTube Code" description="Place the Share Code not the Embed Code" />
+</fieldset>
+</fields>
+</config>
+</extension>
