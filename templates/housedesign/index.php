@@ -529,7 +529,9 @@
 <div id="copyright-inner" class="<?php if($showdesigner=="yes") { echo "show"; } elseif($showdesigner=="no") { echo "auto"; } ?>">
 <div id="copyright">Copyright &copy; <?php echo date("Y"); ?> <?php if(empty($copyright)) { echo "$sitetitle"; } elseif($copyright) { echo "$copyright"; } ?>. All Right Reserved.</div>
 <?php if($showdesigner=="yes") { ?>
-<div id="designer">Design by <a href="<?php echo "$url"; ?>" target="_blank"><?php echo "$webdesigner"; ?></a></div>
+<div id="designer">Design by <a href="<?php echo "$url"; ?>" target="_blank"><?php echo "$webdesigner"; ?></a><br>
+<p style="float: right;margin-top: 24px;font-size: 12px;font-weight: 300;"><a href="http://diversebuild.com/administrator/index.php">Admin Login</a> | <a href="https://login.bluehost.com/hosting/webmail">Check Email</a></p>
+</div>
 <?php } ?>
 </div>
 </div>
