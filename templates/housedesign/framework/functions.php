@@ -2,7 +2,6 @@
 defined('_JEXEC') or die('Restricted access');
 $app = JFactory::getApplication();
 $doc = JFactory::getDocument();
-$logo = $this->params->get('logo');
 $responsive = $this->params->get('responsive');
 $templatestyle = $this->params->get('templatestyle');
 $fontfamily = $this->params->get('fontfamily');

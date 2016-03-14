@@ -7,6 +7,9 @@
 </head>
 
 <body class="<?php echo $this->params->get('fontfamily'); ?>">
+<div>
+	<img style="width:100%" src="http://diversebuild.com/images/templates/housedesign/images/diverse-logo.png">
+</div>
 <?php if($this->countModules('bannertop')) : ?>
 <div id="banner-outer" class="clr">
 <div id="<?php if($bannerwidth=="fix") { echo "banner2-float"; } elseif($bannerwidth=="wide") { echo "banner-float"; } ?>">
@@ -18,8 +21,7 @@
 <?php endif; ?>
 <div id="header-outer" class="clr">
 <div id="header-inner">
-<div id="logo">
-<img class="logo" src="<?php echo $this->baseurl; ?>/<?php echo "$logo"; ?>" />
+<div>
 </div>
 <?php include dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/toolbar.php'; ?>
 </div>
