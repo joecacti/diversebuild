@@ -40,11 +40,28 @@ body{
 #toolbar .menu a {
     border-top: 1px solid #e5271b;
 }
+
+@media screen and (max-width: 480px){
+.company-logo {
+  max-height:85px;
+  }
+}
+
 @media screen and (min-width:480px){
 #navigation { background: none; }
 #toolbar .menu a { border-top: none; }
+.company-logo {
+  max-height:100px;
+  }
 }
 @media screen and (min-width:768px){
 #toolbar { background: none; }
 #toolbar .menu a { border-top: none; }
+.company-logo {
+  max-height:150px;
+  }
+.diverse-head {
+  text-align:center; 
+  max-height:140px;
+}
 }

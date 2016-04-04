@@ -7,8 +7,8 @@
 </head>
 
 <body class="<?php echo $this->params->get('fontfamily'); ?>">
-<div>
-	<img style="width:100%" src="http://diversebuild.com/images/templates/housedesign/images/diverse-logo.png">
+<div class="diverse-head">
+	<img class="company-logo" src="http://diversebuild.com/images/templates/housedesign/images/diverse-logo.png">
 </div>
 <?php if($this->countModules('bannertop')) : ?>
 <div id="banner-outer" class="clr">
